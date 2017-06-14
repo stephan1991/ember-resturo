@@ -6,7 +6,7 @@ import layout from './template';
 let Validations = buildValidations({
   password: [
     validator('presence', true),
-    validator('length', { min: 4, max: 8 })
+    validator('length', { min: 4 })
   ],
   passwordConfirmation: [
     validator('presence', true),
